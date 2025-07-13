@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  background: #f3e8ff;
+  color: #2d0066;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+.MuiPaper-root {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(124, 58, 237, 0.08);
+}
+
+.MuiButton-containedPrimary {
+  background: linear-gradient(90deg, #7c3aed 0%, #a78bfa 100%);
+  color: #fff;
+}
+
+.MuiAppBar-root {
+  box-shadow: 0 2px 8px 0 rgba(124, 58, 237, 0.08);
+}
